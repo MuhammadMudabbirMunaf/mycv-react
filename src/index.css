@@ -1,0 +1,140 @@
+.mainOne{
+  height: 98vh;
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center;
+  justify-content: center; */
+  background-color: rgb(51, 51, 51);
+  margin-left: 25%;
+  box-shadow: 3px 3px 3px 3px rgb(197, 197, 197);
+}
+.mainTwo{
+  height: calc(98vh);
+  width: calc(17vw);
+  /* align-items: center; */
+  background-color: rgb(73, 255, 149);
+}
+.image{
+  height: calc(28vh);
+  width: calc(12vw);
+  background-color: rgb(68, 68, 68);
+  position: absolute;
+  top: 3%;
+  left: 27.8%;
+  background-image: url(./myimg.jpeg);
+  border-radius: 10px;
+}
+.one, .two, .three{
+  background-color: black;
+  color: white;
+  height: calc(5vh);
+  width: calc(14vw);
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.one{
+  position: absolute;
+  top: 33%;
+  left: 27%;
+}
+.two{
+  position: absolute;
+  top: 55%;
+  left: 27%;
+}
+.three{
+  position: absolute;
+  top: 77%;
+  left: 27%;
+}
+.contactInfo{
+  position: absolute;
+  top: 37%;
+  left: 28%;
+  font-weight: bold;
+}
+.educationInfo{
+  position: absolute;
+  top: 59%;
+  left: 30.5%;
+  text-align: center;
+  font-weight: bold;
+}
+.skillInfo{
+  position: absolute;
+  top: 81%;
+  left: 29.5%;
+  text-align: center;
+  font-weight: bold;
+}
+.name{
+  background-color: rgb(73, 255, 149);
+  height: calc(9vh);
+  width: calc(32vw);
+  position: absolute;
+  top: 8%;
+  left: 43%;
+  font-weight: bold;
+  font-size: 43px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.description{
+  background-color: rgb(222, 222, 222);
+  height: calc(8vh);
+  width: calc(26.6vw);
+  position: absolute;
+  top: 22%;
+  left: 46%;
+  font-weight: bold;
+  font-size: 21px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.objective{
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+}
+.expHead{
+  background-color: rgb(222, 222, 222);
+  color: black;
+  height: calc(5vh);
+  width: calc(25vw);
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 49%;
+  left: 42.5%;
+  font-weight: bold;
+}
+.experience1{
+  position: absolute;
+  top: 55%;
+  left: 44%;
+  font-weight: bold;
+  color: white;
+}
+.experience2{
+  position: absolute;
+  top: 70%;
+  left: 44%;
+  font-weight: bold;
+  color: white;
+}
+.experience3{
+  position: absolute;
+  top: 85%;
+  left: 44%;
+  font-weight: bold;
+  color: white;
+}
